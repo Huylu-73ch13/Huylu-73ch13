@@ -1,3 +1,4 @@
+![snake gif](https://github.com/Huylu-73ch13/Huylu-73ch13/blob/output/github-contribution-grid-snake.svg)
 # 💫About Me :
 🎓 Current Status: Student seeking a security job.
 
