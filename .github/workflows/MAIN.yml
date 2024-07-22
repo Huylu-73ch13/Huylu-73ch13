@@ -10,24 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: Huylu-73ch13
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Đẩy thay đổi
-        uses: ad-m/github-push-action@v0.6.0
+      - run: git status
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
+          branch: master
           force: true
 
-      - name: Triển khai lên GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
           build_dir: dist
