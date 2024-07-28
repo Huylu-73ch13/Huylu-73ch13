@@ -22,4 +22,4 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=Huylu-73ch13&icon=6&color=0)](https://visitcount.itsvg.in)
-![snake gif](https://github.com/Huylu-73ch13/Huylu-73ch13/blob/output/github-contribution-grid-snake.svg)
+
